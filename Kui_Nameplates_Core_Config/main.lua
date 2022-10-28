@@ -174,8 +174,8 @@ function command_func.config(...)
         opt:ShowPage(found)
     end
 
-    InterfaceOptionsFrame_OpenToCategory(opt.name)
-    InterfaceOptionsFrame_OpenToCategory(opt.name)
+    Settings.OpenToCategory(opt.name)
+    Settings.OpenToCategory(opt.name)
 end
 function command_func.debug(arg,...)
     -- luacheck:globals KuiNameplatesPlayerAnchor

@@ -223,7 +223,8 @@ do
         opt:SetScript('OnShow',lod_OnShow)
         opt:SetScript('OnEvent',lod_OnEvent)
 
-        InterfaceOptions_AddCategory(opt)
+        catagory = Settings.RegisterCanvasLayoutCategory(opt, 'Kui |cff9966ffNameplates Core')
+        Settings.RegisterAddOnCategory(catagory)
     end
 end
 -- fade rules ##################################################################
